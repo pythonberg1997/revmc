@@ -56,5 +56,7 @@ asm-keccak = ["alloy-primitives/asm-keccak"]
 # also have this feature.
 optimism = ["revm-primitives/optimism", "revm-interpreter/optimism"]
 
+opbnb = ["revm-primitives/opbnb"]
+
 # Internal features.
 __fuzzing = ["dep:arbitrary"]

@@ -74,3 +74,9 @@ strip = false
 
 [profile.bench]
 inherits = "profiling"
+
+[patch.crates-io]
+revm = { git = "https://github.com/bnb-chain/revm", rev = "0fceb6332b50ece91aabe3f90df06ce5aa44111f" }
+revm-interpreter = { git = "https://github.com/bnb-chain/revm", rev = "0fceb6332b50ece91aabe3f90df06ce5aa44111f" }
+revm-precompile = { git = "https://github.com/bnb-chain/revm", rev = "0fceb6332b50ece91aabe3f90df06ce5aa44111f" }
+revm-primitives = { git = "https://github.com/bnb-chain/revm", rev = "0fceb6332b50ece91aabe3f90df06ce5aa44111f" }
